@@ -25,6 +25,7 @@ window.matchMedia('(prefers-color-scheme: dark)').addListener((e) => {
 
 ## To test and develop
 
+- `npm ci` to install all dependencies
 - `npm run dev` will generate the root `background.html` file required for testing
 - `npm run build` to generate a new build
 

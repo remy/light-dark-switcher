@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Light/Dark switcher",
   "description": "Automatically switches between two themes when dark or light mode toggles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Remy Sharp",
   "options_ui": {
     "page": "./options/index.html",
