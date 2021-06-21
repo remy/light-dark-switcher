@@ -1,0 +1,35 @@
+{
+  "name": "theme-switcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background_script.js",
+  "prettier": {
+    "singleQuote": true
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rm -rf background_script.* && parcel build src/background.html -d .; rm *.map; web-ext build --overwrite-dest --ignore-files src",
+    "dev": "parcel src/background.html -d ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-url": "^3.0.0",
+    "tinycolor2": "^1.4.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsdoc": "^35.3.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "targets": {
+    "main": {
+      "outputFormat": "esmodule"
+    }
+  }
+}

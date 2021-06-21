@@ -1,0 +1,26 @@
+{
+  "env": {
+    "es6": true,
+    "webextensions": true,
+    "browser": true
+  },
+  "globals": {
+    "URL": true
+  },
+  "extends": ["eslint:recommended", "plugin:jsdoc/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "plugins": ["jsdoc"],
+  "rules": {
+    "no-console": 0,
+    "jsdoc/require-param-description": 0,
+    "jsdoc/require-returns-description": 0,
+    "jsdoc/require-property-description": 0,
+    "jsdoc/valid-types": 0
+  }
+}

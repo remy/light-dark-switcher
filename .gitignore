@@ -1,0 +1,5 @@
+node_modules
+.cache
+web-ext-artifacts
+/background.html
+/background_script.*.js
