@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Light/Dark switcher",
   "description": "Automatically switches between two themes when dark or light mode toggles",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Remy Sharp",
   "options_ui": {
     "page": "./options/index.html",
@@ -14,5 +14,5 @@
   "background": {
     "page": "background.html"
   },
-  "permissions": ["theme", "management", "storage"]
+  "permissions": ["theme", "management", "storage", "browserSettings"]
 }

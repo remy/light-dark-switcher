@@ -8,6 +8,12 @@ const jsonCodec = JsonUrl('lzma');
 
 let currentMode = -1;
 
+try {
+  browser.browserSettings.overrideContentColorScheme.set({ value: 'system' });
+} catch (e) {
+  console.log('failed to get browser settings');
+}
+
 /**
  * Reads currentMode and loads from storage which theme to render
  */
